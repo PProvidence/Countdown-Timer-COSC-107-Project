@@ -1,0 +1,141 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #bcccdc;
+    color: #102a42;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.img-container{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+img{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.giveaway-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+  text-align: start;
+  width: 100%;
+}
+
+h3{
+    font-size: 1.25rem;
+    color: #0b64a4;
+}
+
+.giveaway-info h3,.giveaway-info h4{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.25rem;
+    line-height: 1.25;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+
+.more-details{
+    color: #48647f;
+    margin: 2rem 0;
+}
+
+section{
+    margin: 5rem auto;
+    padding: 5rem auto;
+    width: 90vw;
+    /* display: flex; */
+}
+
+.giveaway-info h3{
+    font-size: 1.75rem;
+    text-transform: uppercase;
+}
+
+/* ~ COUNTDOWN TIMER ~ */
+
+.countdown{
+    display: flex;
+    gap: 16px;
+    /* justify-content: space-between; */
+}
+
+.countdown h4{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.box{
+    background-color: #063251;
+    border-radius: 4px;
+    color: #fff;
+    display: grid;
+    /* margin-right: 1rem; */
+    height: 5rem;
+    width: 5rem;
+    padding: 12px 0;
+    place-items: center;
+    text-align: center;
+}
+
+  
+  .countdown-timer span {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+  }
+
+  
+/* .deadline h4:not(.expired) {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+    letter-spacing: var(--spacing);
+  } */
+
+/* Responsiveness for Mobile first design */
+@media screen and (min-width: 800px) {
+    h3 {
+      font-size: 1.75rem;
+    }
+  
+    h4 {
+      font-size: 1rem;
+    }
+
+    body {
+      font-size: 1rem;
+    }
+
+    h3,h4 {
+      line-height: 1;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    section {
+      /* display: grid; */
+      /* grid-template-columns: 1fr 1fr; */
+      display: flex;
+      place-items: center;
+      gap: 3rem;
+      width: 95vw;
+    }
+  
+    .img-container {
+      margin-bottom: 0;
+    }
+  }
