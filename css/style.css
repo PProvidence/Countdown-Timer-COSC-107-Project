@@ -9,8 +9,10 @@
 }
 
 body{
-    background-color: #bcccdc;
-    color: #102a42;
+    /* background-color: #bcccdc; */
+    background-color: #f0d9e5;
+    /* color: #102a42; */
+    color: darkmagenta;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 1.5;
@@ -25,6 +27,7 @@ img{
     display: block;
     width: 100%;
     border-radius: 8px;
+    box-shadow: 5px 5px 6px hotpink;
 }
 
 .giveaway-info{
@@ -38,7 +41,8 @@ img{
 
 h3{
     font-size: 1.25rem;
-    color: #0b64a4;
+    /* color: #0b64a4; */
+    color: hotpink;
 }
 
 .giveaway-info h3,.giveaway-info h4{
@@ -50,7 +54,8 @@ h3{
 }
 
 .more-details{
-    color: #48647f;
+    /* color: #48647f; */
+    color: #ad5c92;
     margin: 2rem 0;
 }
 
@@ -80,7 +85,8 @@ section{
 }
 
 .box{
-    background-color: #063251;
+    /* background-color: #063251; */
+    background-color: #ff2190;
     border-radius: 4px;
     color: #fff;
     display: grid;
@@ -99,13 +105,6 @@ section{
     letter-spacing: 2px;
     font-size: 0.85rem;
   }
-
-  
-/* .deadline h4:not(.expired) {
-    font-size: 2rem;
-    margin-bottom: 0.25rem;
-    letter-spacing: var(--spacing);
-  } */
 
 /* Responsiveness for Mobile first design */
 @media screen and (min-width: 800px) {
